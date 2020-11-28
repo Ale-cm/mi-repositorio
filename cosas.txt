@@ -1,3 +1,40 @@
 git status 
 git commit -m "-----" 
 git add .
+
+
+
+
+Alejandro@DESKTOP-I8CQSLK MINGW64 ~/Desktop/Desarrollador/curso github (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    prueba.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Alejandro@DESKTOP-I8CQSLK MINGW64 ~/Desktop/Desarrollador/curso github (master)
+$ gid add prueba.html
+bash: gid: command not found
+
+Alejandro@DESKTOP-I8CQSLK MINGW64 ~/Desktop/Desarrollador/curso github (master)
+$ git add prueba.html
+
+Alejandro@DESKTOP-I8CQSLK MINGW64 ~/Desktop/Desarrollador/curso github (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    prueba.html
+
+
+Alejandro@DESKTOP-I8CQSLK MINGW64 ~/Desktop/Desarrollador/curso github (master)
+$ git commit -m "ellimino prueba. html"
+[master 9fac8e1] ellimino prueba. html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 prueba.html
+
+Alejandro@DESKTOP-I8CQSLK MINGW64 ~/Desktop/Desarrollador/curso github (master)
+$
